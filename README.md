@@ -22,9 +22,7 @@ tried morrisons — nutritional data is available without dynamic content. ran i
 
 morrisons is great: every result has a category, so it's easy to split and compare products. would be cool to let users filter by category—might add that.
 
-## hybrid approach: selenium + scrapy
-
-for morrisons, i use selenium to grab product info (title, price, category, link) from search results, then scrapy to visit each link and extract nutrition data. this two-step method handles dynamic pages and antibot blocks.
+for morrisons, i think i will use selenium to grab product info (title, price, category, link) from search results, then scrapy to visit each link and extract nutrition data. this two-step method handles dynamic pages and antibot blocks.
 
 
 
