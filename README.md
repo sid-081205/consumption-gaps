@@ -36,7 +36,7 @@ scrape product data with selenium (just change query) + scrapy (for nutrition da
 
 ![protein to energy ratio vs price](static_plot_example.png)
 
-*example: static plot of protein to energy ratio vs price for morrisons products. interactive version available in the jupyter notebook.*
+*example: static plot of protein to energy ratio vs price for orange query results. interactive version available in the jupyter notebook.*
 
 
 
