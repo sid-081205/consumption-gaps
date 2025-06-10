@@ -24,6 +24,18 @@ morrisons is great: every result has a category, so it's easy to split and compa
 
 for morrisons, i think i will use selenium to grab product info (title, price, category, link) from search results, then scrapy to visit each link and extract nutrition data. this two-step method handles dynamic pages and antibot blocks.
 
+## final product
+
+used selenium to scrape morrisons: had to scroll to load all products, which is fiddly and can break if the website changes. selenium extracts all product links from the search results. then, a scrapy spider visits each product page and gets all nutrition data, storing it in an sqlite database.
+
+the sqlite database is then used to generate an interactive visualization in the visualization jupyter notebook. users can filter by category and explore nutrient ratios across products.
+
+## tl;dr
+
+scrape product data with selenium (for links) + scrapy (for nutrition) → save to sqlite → visualize interactively in jupyter notebook (filter by category, compare nutrients, see prices).
+
+
+
 
 
 

@@ -1,6 +1,4 @@
 import sqlite3
-from itemadapter import ItemAdapter
-
 
 class TryingMorrisonsPipeline:
     def open_spider(self, spider):
