@@ -7,6 +7,11 @@ import scrapy
 
 
 class TryingMorrisonsItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+    category = scrapy.Field()
+    title = scrapy.Field()
+    price = scrapy.Field()
+    link = scrapy.Field()
+    energy_per_100g = scrapy.Field()
+    fat_per_100g = scrapy.Field()
+    saturated_fat_per_100g = scrapy.Field()
+    protein_per_100g = scrapy.Field()

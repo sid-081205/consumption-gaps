@@ -65,9 +65,9 @@ DOWNLOAD_DELAY = 2  # Add a 2 second delay between requests
 
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
-#ITEM_PIPELINES = {
-#    "trying_morrisons.pipelines.TryingMorrisonsPipeline": 300,
-#}
+ITEM_PIPELINES = {
+    "trying_morrisons.pipelines.TryingMorrisonsPipeline": 300,
+}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html
