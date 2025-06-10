@@ -14,15 +14,13 @@ ran into trouble with dynamic dropdowns inside sainsbury's product page, so trie
 
 got comfortable with using the scrapy shell and making xpath/css selectors
 
-tesco banned my ip for 2 days (not messing with them again). asda also has strong antibot protection - interestingly the html says "REQUEST INTERCEPTED" which was fun.
+tried scraping tesco (not messing with them again). asda's scraped html says "REQUEST INTERCEPTED" which was fun to see
 
 currently, the only option is to try iceland, but i haven't figured out how to handle dynamic javascript dropdowns in html. 
 
-tried morrisons — nutritional data is available without dynamic content. ran into some 403 errors with scrapy, but tweaking the settings to be more realistic helped avoid detection.
+tried morrisons — nutritional data is available without dynamic content. ran into some 403 errors with scrapy, but tweaking the settings to be more realistic.
 
 morrisons is great: every result has a category, so it's easy to split and compare products. would be cool to let users filter by category—might add that.
-
-for morrisons, i think i will use selenium to grab product info (title, price, category, link) from search results, then scrapy to visit each link and extract nutrition data. this two-step method handles dynamic pages and antibot blocks.
 
 ## final product
 
