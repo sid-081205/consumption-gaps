@@ -32,7 +32,11 @@ the sqlite database is then used to generate an interactive visualization in the
 
 ## tl;dr
 
-scrape product data with selenium (for links) + scrapy (for nutrition) → save to sqlite → visualize interactively in jupyter notebook (filter by category, compare nutrients, see prices).
+scrape product data with selenium (just change query) + scrapy (for nutrition data) → save to sqlite → visualize interactively in the visualization jupyter notebook (filter by category, compare nutrients, see prices).
+
+![protein to energy ratio vs price](static_plot_example.png)
+
+*example: static plot of protein to energy ratio vs price for morrisons products. interactive version available in the jupyter notebook.*
 
 
 

@@ -1,5 +1,4 @@
-import json
-import scrapy
+import scrapy # type: ignore
 import logging
 import csv
 from trying_morrisons.items import TryingMorrisonsItem
